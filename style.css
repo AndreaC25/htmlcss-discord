@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*font */
+
+@font-face{
+    font-family: 'Whitney';
+    src: url(Font/whitneybold.otf);
+    
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url(Font/whitneymedium.otf);
+}
+
+body{
+    font-family: 'Whitney', sans-serif;
+    line-height: em;
+}
+
+
+.container{
+  
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*elementi del nav*/
+nav{
+    
+    padding: 20px;
+
+    margin-bottom: 120px;
+}
+
+nav .container{
+    display: flex;
+    
+    background-color: #DAA520;
+   
+}
+
+nav .container > * {
+    
+    display: flex;
+    align-items: center;
+
+}
+
+section h2 {
+    font-size: 32px;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+    font-family: 'Whitney Bold';
+}
+
+.logo{
+    padding-top: 8px;
+    
+
+}
+
+.lista{
+    flex-grow: 1;
+}
+
+.lista ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 26px;
+}
+
+.lista a{
+    color: white;
+    text-decoration: none;
+}
+.login{
+   
+    text-align: right;
+   
+
+}
+/*fine elementi nav*/
+
+/*pulsanti*/
+
+.pulsante{
+    display: flex;
+    padding: 18px 28px;
+    align-items: flex-end;
+    border-radius: 29px;
+    background-color: white;
+    color: #23272A;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.pulsante-piccolo{
+    padding: 10px 16px;
+    border-radius: 18px;
+}
+
+.pulsante-medio{
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #8EA1E1;
+    color: white;
+    font-size: 0.8em;
+}
+
+.pulsante-nero{
+    background-color: #23272A;
+    color: white;
+}
+
+
+/*fine pulsanti*/
+
+/*inizio stilizzazione corpo della pagina*/
+
+section{
+    padding: 40px 20px;
+}
+
+#primo{
+    background-color: #00008B;
+   
+}
+
+
+#primo .small-box{
+   
+   text-align: center;
+   color: white;
+}
+
+#primno .small-box h1{
+    margin-bottom: 34px;
+    font-size: 36px;
+}
+
+
+.small-box{
+    border: dashed black 2px;
+    background-color: #EE82EE;
+    max-width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row{
+    display: flex;
+
+}
+
+section .row {
+    gap: 100px;
+}
+
+.grey{
+    background-color: #D3D3D3;
+}
+
+
+.big-boxes{
+
+    flex-grow: 1;
+  
+}
+
+.big-boxes img{
+    width: 100%;
+}
+
+.small-boxes{
+    width: 400px;
+    padding-top: 20px;
+
+}
+
+.grey .big-boxgreen{
+   text-align: center;
+}
+
+.big-boxgreen .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-boxgreen .cta .cta-text{
+    padding: 18px 40px 38px;
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1.4em;
+    font-family: 'Whitney Bold', sans-serif;
+}
+
+/*fine stilizzazione*/
+
+/*footer inizio*/
+
+footer{
+    padding-top: 64px;
+    color: white;
+    background-color: #23272A;
+}
+
+footer .conainer > * {
+    border: dashed 4px white;
+}
+
+footer #top-side{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid #728BDB7B;
+
+}
+
+footer #top-side h2 , footer #top-side h5{
+    color: #7289DA;
+}
+
+footer #top-side h2{
+    margin-bottom: 1em;
+}
+
+footer #top-side .footer-links{
+   margin-right: 100px;
+    width: 260px;
+
+}
+
+footer #top-side .selettore-lingua{
+   margin-bottom: 20px;
+}
+
+footer #top-side .selettore-lingua img{
+    height: 1em;
+
+}
+
+footer #top-side .selettore-lingua .fa{
+    font-size: 0.5em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+footer #top-side .footer-links .icone{
+    display: flex;
+    gap: 20px;
+
+}
+footer #top-side .colonne {
+
+    flex-grow: 1;
+}
+
+footer #top-side .colonne h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+footer #top-side .colonne ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+footer #btm{
+
+    margin-top: 16px;
+    b
+}
+
+footer #btm {
+    justify-content: space-between;
+    padding: 16px 0;
+
+
+}
+
+footer #btm > * {
+    background-color:#FFB6C1;
+    border: dashed black 3px;
+
+    padding: 4px 10px;
+
+}
+
+/*fine footer*/
